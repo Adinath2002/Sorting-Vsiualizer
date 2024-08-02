@@ -1,0 +1,134 @@
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png">
+    <link rel = "stylesheet" href="homepage.css">
+    <title> visualize the sorts </title>
+ </head>
+ <body>
+
+     
+        <nav class="navbar">
+            <ul>
+                <li><a href="Desktop/MINORPROJECT/homepage.css" target="_blank">Home</a></li>
+                <li> <a href="index.html" target="_blank">Visualize</a></li>
+                <li> <a href="About">About</a></li>
+
+            </ul>
+        </nav>
+
+        <center> <h1> Sorting Algorithms </h1> </center>
+
+        <p class ="sfont">  Sorting Algorithm  is used to rearrange a given array or list of elements according to a comparison operator on the elements. The comparison operator is used to decide the new order of elements in the respective data structure.  </p>
+            <br>
+
+           <p class="sfontf">  For Example: The below list of characters is sorted in increasing order of their <b> ASCII</b> values. That is, the character with a lesser ASCII value will be placed first than the character with a higher ASCII value.</p>
+           <br>
+            <hr>
+
+           <h2>Bubble Sort</h2>
+           <div class="container"> 
+            <div class ="image">
+           <img src="bubble sort image.png" alt="Image Not Found">
+
+           </div>
+           <div class="text"> 
+           <p class="bfont"> Bubble Sort is the simplest sorting algorithm that works by repeatedly <b> swapping the adjacent elements</b> if they are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high.</p>
+            </div>
+            </div>
+
+          <a href="index.html" target="_blank"> 
+           <button type="button" >Try Bubble Sort
+           </button>   
+         </a> 
+         
+         <br>
+         <hr>
+         <h2>Selection Sort</h2>
+
+
+         <div class="container">
+         <div class="image">
+         <img src="selectionsort.png" alt="IMAGE NOT FOUND">
+         </div>
+         <div class = "text">
+          <p class="sefont">The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from the unsorted part and putting it at the beginning. </p>
+
+          <!-- <ul>
+             <li>The subarray which already sorted. </li>
+             <li>The remaining subarray was unsorted.</li>
+          </ul> -->
+         </div>
+         </div>
+         
+
+         <a href="index.html" target="_blank"> 
+            <button type="button">Try Selection Sort
+            </button>   
+          </a> 
+           
+
+
+          <br>
+          <hr>
+          <h2> Insertion Sort</h2>
+          <div class="container">
+            <div class="image">
+              <img src="insertionsort.png" alt="Image Not Found" width="300px">
+            </div>
+            
+          <p class="sfont">    Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part.</p>
+          </div>
+          </div>
+
+          <a href="index.html" target="_blank"> 
+            <button type="button">Try Insertion Sort
+            </button>   
+          </a> 
+
+          <br>
+          <hr>
+          <h2> Merge Sort</h2>
+
+          <div class="container"> 
+            <div class="image"  >
+              <img src="MergeSortTutorial.png" alt="Image Not Found"  width="300px" >
+            </div>     
+            
+            <p class="sfont"> The Merge Sort algorithm is a sorting algorithm that is based on the Divide and Conquer paradigm. In this algorithm, the array is initially divided into two equal halves and then they are combined in a sorted manner.
+                <br>
+            Merge Sort Working Process:
+            Think of it as a recursive algorithm continuously splits the array in half until it cannot be further divided. This means that if the array becomes empty or has only one element left, the dividing will stop, i.e. it is the base case to stop the recursion. If the array has multiple elements, split the array into halves and recursively invoke the merge sort on each of the halves. Finally, when both halves are sorted, the merge operation is applied. Merge operation is the process of taking two smaller sorted arrays and combining them to eventually make a larger one.</p>
+            </div>
+            </div>
+
+          <a href="index.html" target="_blank"> 
+            <button type="button">Try Merge Sort
+            </button>   
+          </a> 
+           
+          <hr>
+          <br>
+
+          <h2> Heap Sort</h2>
+ 
+          <p>Heap sort is a comparison-based sorting technique based on Binary Heap data structure. It is similar to the selection sort where we first find the minimum element and place the minimum element at the beginning. Repeat the same process for the remaining elements.</p>
+
+          <br>
+          <ul>
+            <li>Heap sort is an in-place algorithm. </li>
+            <li>ts typical implementation is not stable, but can be made stable.</li>
+            <li>Typically 2-3 times slower than well-implemented QuickSort.  The reason for slowness is a lack of locality of reference.</li>
+          </ul>
+
+          <a href="index.html" target="_blank"> 
+            <button type="button">Try Merge Sort
+            </button>   
+          </a> 
+           
+
+
+ </body>
+ </html>
